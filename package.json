@@ -1,0 +1,18 @@
+{
+  "name": "message-queues",
+  "version": "1.0.0",
+  "description": "Assignment 9 Message Queue Implementation",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "feed-worker": "node workers/feedFanoutWorker.js",
+    "notification-worker": "node workers/notificationWorker.js",
+    "dlq-worker": "node workers/dlqConsumer.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "kafkajs": "^2.2.4",
+    "uuid": "^11.1.0",
+    "fs-extra": "^11.3.0"
+  }
+}
