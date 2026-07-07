@@ -1,5 +1,3 @@
-# docs/10-order-processing.md
-
 # Order Processing System for E-Commerce
 
 ## 1. Problem Statement
